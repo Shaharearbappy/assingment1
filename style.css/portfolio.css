@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+
+}
+.ag-h1 {
+  
+
+width: 71px;
+height: 36px;
+  color: #469165;
+   margin-bottom: 5px; 
+  
+ 
+
+
+}
+header{
+    background-color: #FFFFFF;
+    padding-top: 16px;
+   
+   
+    
+
+}
+nav{
+/* width: 1600px;
+border: 1px solid red; */
+padding-left: 121px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-bottom: 16px;
+
+
+
+}
+.img{
+    width: 46.51px;
+    height: 56px;
+    /* border: 1px solid red; */
+}
+.logo2{
+    width: 71px;
+   max-width: 36;
+   /* border: 1px solid red; */
+}
+
+
+.logo{
+    /* border: 1px solid red; */
+    display: flex;
+}
+.logo p {
+    
+   
+    font-size: 15px;
+}
+.logo h2{
+    font-size: 38px;
+    
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+   
+}
+nav .menu a{
+     font-size: 16px;
+    color: #000000;
+    /* border: 1px solid red; */
+   text-decoration: none;
+   font-weight: 500;
+}
+.btn{
+    margin-right: 120px;
+
+ width: 164px;
+ height: 44px;
+ gap: 10px;
+ background-color: #469165;
+ /* border: 1px solid red; */
+ color: #FFFFFF;
+ border: none;
+ border-radius: 4px;
+ font-size: 16px;
+ font-weight: 600;
+
+}
+#bannar{
+
+  /* border: 1px solid red; */
+  align-items: center;
+  text-align: center;
+  width: 1600px;
+  height: 690px;
+box-sizing: border-box;
+background-image: url(../image/cropped-hands-woman-writing-book\ 1.png);
+background-repeat:no-repeat;
+ 
+}
+#bannar .bannar-index{
+    /* border: 1px solid red; */
+    display: flex;
+  align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+   width: 229px;
+   height: 35px;
+   /* margin-bottom: 16px; */
+  
+    padding: 12px 8px;
+    border-radius: 1000px;
+    gap: 6px;
+margin: auto
+}
+
+#bannar .bannar-index p{
+    color: #469165;
+    width: 183px;
+   
+;
+}
+#bannar .bannar-container{
+    padding: 115.5px  120px 179.5px 120px;
+ 
+   
+}
+.bannar-content h1{
+    font-size: 72px;
+    line-height: 84px;
+    font-weight: bold;
+    
+
+}
+.white{
+    color: #FFFFFF;
+    
+}
+.green{
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.bannar-content p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.bannar-content button{
+width: 251px;
+height: 52px;
+gap: 10px;
+padding: 16px 12px;
+border-radius: 4px;
+border: none;
+
+}
+.btn1{
+background-color: #469165;  
+font-size: 16px;
+font-weight: 600;
+color: #FFFFFF;  
+}
+.btn2{
+border: 1px solid white;
+ width: 100px;
+max-height: 5px;
+gap: 10px;
+padding: 16px 12px;
+border-radius: 4px;
+background-color: red;
+
+}
+.for-btn{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    gap: 10px;
+   
+}
+.for-btn p{
+     border: 1px solid #FFFFFF;
+     padding: 12px 16px;
+     text-align: center;
+     margin-top: 16px;
+     color: #FFFFFF;
+     font-size: 16px;
+     font-weight: 600;
+
+     border-radius: 4px;
+}
+#about{
+    width: 1600px;
+    height: 440px;
+ padding: 0px 120px 120px 120px;
+    gap: 44px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-heading{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0 auto;
+    color: #001931;
+    width: 1360px;
+    height: 116px;
+    
+}
+.section-heading p{
+    font-size: 16px;
+    color: #627382;
+    margin-top: 16px;
+
+}
+
+.skill{
+    display: flex;
+    width: 1360px;
+    height: 300px;
+    margin-top: 44px;
+    margin-bottom: 0px;
+    gap: 40px;
+}
+.skill-card{
+    padding: 24px;
+    max-width: 322px;
+    /* border: 1px solid red; */
+box-shadow: 0 0 8px 0 #00000053;
+}
+.skill-card img{
+    max-width: 60px;
+ margin-top: 69.5px;
+ margin-bottom: 16px;
+
+}
+.skill-card h3 {
+
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.skill-card p{
+    font-size: 16px;
+    color: #627382;
+}
+#fram{
+    width: 1600px;
+    height: 840px;
+    padding: 120px 120px;
+    background-color: #FFFFFF;
+    gap: 40px;
+}
+#fram .fram-1{
+    display: flex;
+}
+.fram-2 h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    line-height: 20px;
+    margin-top: 120px;
+    margin-bottom: 16px;
+}
+.imag-1{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+.fram-2 h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16PX;
+}
+.fram-2 P{
+    font-size: 16PX;
+line-height: 20PX;
+color: #627382;
+
+}
+.menu img{
+    height: 20px;
+    width: 20px;
+}
+.menu{
+    display: flex;
+    margin-bottom: 16px;
+}
+.menu p{
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 20px;
+    color: #001931;
+}
+.pp{
+    margin-bottom: 40px;
+}
+#last{
+   
+ 
+   padding: 80px 40px 80px 40px;
+    border-radius: 12px;
+    background-color: #F7F6F2;
+    margin: 0 120px 120px 120px;
+  
+    text-align: center;
+
+}
+
+  
+
+   
+    
+
+.list-2 h1{
+font-size: 40px;
+font-weight: bold;
+color: #001931;
+
+}
+.list-2 p{
+    padding-top: px;
+
+
+
+
+}
+.last-p{
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+}
+.btn-last{
+margin-top: 24px;
+ padding: 16px 12px;
+ width: 194px;
+ height: 52px;
+ gap: 10px;
+ background-color: #469165;
+ /* border: 1px solid red; */
+ color: #FFFFFF;
+ border: none;
+ border-radius: 4px;
+ font-size: 16px;
+ font-weight: 600;
+ text-align: center;
+ box-shadow: 0 5px 10px #000000;
+ margin-bottom: 16px;
+}
+.btn-last1{
+    font-size: 18px;
+    line-height: 20px;
+    color: #627382;
+}
+footer{
+width: 1600px;
+height: 348px;
+padding: 120px 120px 30px 120px;
+background-color: #001931;
+
+}
+.bannar-container{
+    width: 1360px;
+    height: 64px;
+
+
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    height: 64px;
+  
+}
+.head-last h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    
+}
+.copy{
+    text-align: center;
+   padding: 110px 120px 0px 120px;
+   font-size: 16px;
+   line-height: 24px;
+   color: #FAFAFA;
+}
